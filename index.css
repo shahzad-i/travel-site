@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+body{
+width: 100vw;
+height: 100vh;.pacifico-regular 
+ 
+}
+.header{
+    width:100%;
+    height:10%;
+    background:#bbb;
+    text-align:justify; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+.logo{
+    text-decoration:none; 
+   font-family: "Pacifico",cursive; 
+}
+.searchbox{
+    width: 300px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px black;
+}
+#search{
+    width:inherit;
+    border: none;
+    background: transparent;
+    padding: 5px;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div ul li{
+    text-decoration:none;
+    display: flex;
+}
+div ul li a{
+    display:flex;
+    text-decoration: none; 
+    font-family: "Pacifico",cursive;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+div ul li a:hover{
+    color: red;  
+}
+
+div ul li .active{
+     color: red;
+
+}
+.BEST{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.BEST h1{
+    margin: 15px 0;
+}
+
+.set{
+ width: 100%;
+ height:500px;   
+ background-color:rgb(215, 237, 250);
+ background-repeat:no-repeat;
+ background-image: url("/bird\ img2.jpg");
+ background-size: cover;
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px 70px;
+    margin-right: 50px;
+    background-color: rgb(238, 234, 228);
+    width:100vw;
+    padding:15px 0;
+
+}
+
+.text-book{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:400px;
+}
+.book{
+    width: auto;
+    height: 350px;
+    display: flex;
+    background-color: rgb(135, 174, 201);
+    border-radius: 300px;
+}
+
+.book img{
+    width:auto;
+    height: auto;
+    
+}
+    
+.ebook{
+    width:auto;
+    height:550px;
+    background-color: #bbb
+    background-repeat:no-repeat;
+    background-image: url("/simple\ img.jpg");
+    background-size: cover;
+}
+.our{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.hhh{
+     width: auto;
+    height: 350px;
+    display: flex;
+    background-color: rgb(180, 158, 109);
+    border-radius: 300px;
+}
+.ggg{
+    padding: 50px; 
+}

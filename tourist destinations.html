@@ -18,6 +18,13 @@
             padding: 50px;
             color: #f0f8ff;
        }
+       img{
+        transition: 2s;
+       }
+       img:hover{
+         width: 400px;
+         height:400px;
+       }
         .mainccc{
             display: flex; 
             text-align:justify;
@@ -56,9 +63,6 @@
            justify-content: space-between;
            align-items: center;
         }
-        /* .eee img{
-            border-radius: 10px 30px;
-        } */
         .eee p{
             width: 25%;
         }
@@ -91,12 +95,12 @@
 .flex-row img{
     border-radius: 10px 30px;
 }
-.flex-row{
-    /* background:url(/trees\ turn\ golden-orange.webp) no-repeat center;
+/* .flex-row{
+    background:url(/trees\ turn\ golden-orange.webp) no-repeat center;
     background-size: cover;
       padding: 50px;
-    color: #f0f8ff; */
-  }
+    color: #f0f8ff;
+  } */
 .col{
     display: flex;
     justify-content:center;
@@ -110,12 +114,11 @@
     display: flex;
 }
 .GBimg img{
-    width:400px ;
-    height: 400px;
+    width:200px ;
+    height: 200px;
 }
 .active{
     display:flex;
-     /* justify-content:center; */
     flex-direction:row;
 }
 .active,img{   
@@ -139,11 +142,25 @@ grid-template-columns: 1fr 1fr 1fr;    width: 100%;
     width:220px;
     height:100px;
 }
+.mainpage{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+.mainpage:hover {
+  background-color: #0056b3;
+}
 
 </style>
 </head>
 <body>
-   <a href="/index.html"> GO HOME </a>
+ <a href="/index.html"class="mainpage">GO HOME</a>
  <section>
 <div>
 <h1>Tourist Destinations</h1>

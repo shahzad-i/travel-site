@@ -3,10 +3,12 @@
     padding: 0px;
 }
 body{
-    width: 100vw;
+    width: 100%;
     /* height: 100vh; */
       background-image: linear-gradient(rgb(164, 151, 221), rgb(241, 128, 152));
+
 }
+
 .header{
     width:100%;
     height:10%;
@@ -44,6 +46,20 @@ body{
     align-items: center;
     justify-content: center;
 } */
+ img {
+  border: 2px solid #b16060;
+  border-radius: 5px;
+  padding: 5px;
+  /* width: 150px; */
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* <a href="paris.jpg">
+  <img src="paris.jpg" alt="Paris">
+</a> */
 div ul li{
     text-decoration:none;
     display: flex;
@@ -87,5 +103,12 @@ div ul li .active{
      display: flex;
     text-align: justify;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
+ }
+.ggg img{
+margin-top: 80px;
+}
+.hhh div{
+font-size: 3vh;
 }
